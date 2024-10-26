@@ -30,10 +30,6 @@ def math(numbers, symbols):
             result += numbers[i + 1]
         elif symbol == '-':
             result -= numbers[i + 1]
-        elif symbol == '*':
-            result *= numbers[i + 1]
-        elif symbol == '/':
-            result /= numbers[i + 1]
 
     return result
 
