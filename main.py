@@ -34,7 +34,7 @@ def math(numbers, symbols):
     return result
 
 if __name__ == '__main__':
-    string_test = "12 + 1 * 8"
+    string_test = "12 + 1"
     numbers, symbols = string_parser(string_test)
 
     print(math(numbers,symbols))
